@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Course Table</title>
+
+    <!-- import cdn -->
+     <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<!-- overlay -->
+<style>
+    .course-table .teacher
+    {
+        display:block;
+        
+    }
+    .course img
+    {
+        float:right;
+        border-radius: 8px;
+    }
+    .card
+    {
+    border: none;
+    }
+
+</style>
+
+<body>
+    <div class="p-5 bg-primary text-white">
+        <h1>逢甲大學學士後資訊工程專班</h1>
+        <h3>112-3 課表</h3>
+    </div>
+    <div class="container">
+
+        <h2>我的課表</h2>
+        
+            <table class="table course_table">
+                <tr>
+                    <th>-</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                </tr>
+                <tr>
+                    <th>9:10-12:00</th>
+                    <td><span> App 開發 </span>
+                        <span class="teacher d-block text-primary">賴璉錡</span>
+                    </td>
+                    <td>資料結構與演算法 <span class="teacher d-block text-primary">李俊宏</span></td>
+                    <td>App 開發 <span class="teacher d-block text-primary">賴璉錡</span></td>
+                    <td>資料庫與後端 <span class="teacher d-block text-primary">陳錫民</span></td>
+                </tr>
+                <tr>
+                    <th>1:10-4:00</th>
+                    <td>資料結構與演算法 <span class="teacher d-block text-primary">李俊宏</span></td>
+                    <td>進階網頁設計 <span class="teacher d-block text-primary">薛念林</span></td>
+                    <td>資料庫與後端 <span class="teacher d-block text-primary">陳錫民</span></td>
+                    <td>進階網頁設計 <span class="teacher d-block text-primary">薛念林</span></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+  <div class="container">
+    <!-- teacher interdrouction -->
+    <div class="teacher container mt-3">
+        <!-- margin-top:3 -->
+    <h2 class="text-center mt-3 mb-3">老師介紹</h2>
+
+    <div class="row justify-content-center">
+    <div class="col-9 col-sm-9 col-md-6 col-lg-3 card">
+            <img class="card-img-top" src="https://www.iecs.fcu.edu.tw/media/img/teacher/avatar/IMG_2906.png" alt="">
+            <p>薛念林老師</p>
+            <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eius quia omnis fugit veritatis nulla,
+                veniam, voluptate maiores eveniet porro maxime non harum similique atque! Consequatur explicabo
+                praesentium laborum possimus, consequuntur totam molestiae illum. Facilis odio quo error commodi
+                repellat? </div>
+        </div>
+
+        
+            <div class="col-9 col-sm-9 col-md-6 col-lg-3 card">
+            <img src="https://www.iecs.fcu.edu.tw/media/img/teacher/avatar/IeonLee800X800.png" alt="">
+            <p>李俊宏老師</p>
+            <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ducimus, molestiae incidunt provident
+                rem veniam suscipit labore fuga a accusamus laudantium accusantium eos harum deserunt vero odio eaque
+                voluptate amet officiis magnam? Ut, maiores vel nisi nihil totam voluptatum saepe. </div>
+        </div>
+  
+
+        <div class="col-9 col-sm-9 col-md-6 col-lg-3 card">
+            <img src="https://www.iecs.fcu.edu.tw/media/img/teacher/avatar/pic_02423.jpg" alt="">
+            <p>陳錫民老師</p>
+            <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ipsa dolorem veniam incidunt
+                dignissimos voluptas aut officiis cupiditate modi vel temporibus non, laudantium est nobis numquam
+                tempore consectetur, odit autem. Esse, voluptatibus asperiores. Fugiat est praesentium perferendis
+                quisquam voluptas hic!
+            </div>
+        </div>
+
+        <div class="col-9 col-sm-9 col-md-6 col-lg-3 card">
+            <img src="https://www.iecs.fcu.edu.tw/media/img/teacher/avatar/CCC2_square.jpg" alt="">
+            <p>張真誠老師</p>
+            <div class="card-body">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum laudantium possimus vero veritatis
+                quibusdam repellat porro eius! Dignissimos praesentium ut voluptatem quisquam corporis cupiditate
+                molestias. Dignissimos corporis eius vitae ipsam, cum, saepe quae tenetur, fuga laboriosam rem
+                perferendis ad illo!
+            </div>
+        </div>
+
+        <div class="col-9 col-sm-9 col-md-6 col-lg-3 card">
+            <img src="https://www.iecs.fcu.edu.tw/media/img/teacher/avatar/%E7%89%B9%E7%B4%84%E8%AC%9B%E5%BA%A7-%E6%A1%91%E6%85%A7%E6%95%8F-%E6%AD%A3%E6%96%B9%E5%BD%A2.jpg"
+                alt="">
+            <p>桑慧敏老師</p>
+            <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cum illo tempora ab facere qui ex accusamus
+                repellendus, beatae pariatur iure voluptatibus fugiat molestiae unde excepturi sunt, suscipit quod
+                reprehenderit necessitatibus aliquam nobis optio, ratione reiciendis? Dolorem neque repellat sed?
+            </div>
+        </div>
+
+        <div class="col-9 col-sm-9 col-md-6 col-lg-3 card">
+            <img src="https://www.iecs.fcu.edu.tw/media/img/teacher/avatar/wblee5c-800.jpg" alt="">
+            <p>李維斌老師</p>
+            <div class="card-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quam necessitatibus dolorem adipisci
+                autem eius doloribus repudiandae nulla incidunt officiis illo quod fuga soluta obcaecati facere
+                veritatis molestias aliquid, sequi vel saepe consequatur dicta? Tempore fugiat impedit dolor laborum
+                natus.
+            </div>
+        </div>
+        <div class="col-9 col-sm-9 col-md-6 col-lg-3 card">
+            <img src="https://www.iecs.fcu.edu.tw/media/img/teacher/avatar/T29_FCLin.png" alt="">
+            <p>林峰正老師</p>
+            <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sit ipsam molestiae
+                laudantium aut ex fugiat, assumenda qui, amet possimus perspiciatis illum deleniti id tempora quae modi
+                ea quasi architecto atque cupiditate. Eum placeat molestias quasi fuga ad fugit tenetur!</div>
+        </div>
+
+        <div class="col-9 col-sm-9 col-md-6 col-lg-3 card">
+            <img src="https://www.iecs.fcu.edu.tw/media/img/teacher/avatar/pic_02726.jpg" alt="">
+            <p>劉明機老師</p>
+            <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum aspernatur recusandae
+                molestias molestiae minus error sed quas ratione labore maxime, aut sapiente tempora? Laudantium odio
+                harum illo deserunt amet quae ipsam ea eaque, qui deleniti recusandae sunt corporis tenetur ducimus.
+            </div>
+        </div>
+    </div>
+</div>
+  </div>
+</div>
+
+    <div class="container">
+        <div>
+            <div class='row'>
+                <h2 class='text-center mt-3 mb-3'>App 設計</h2>
+                <div class=" col-9 col-sm-9 col-md-6 col-lg-3 card ">
+                    <img src="https://picsum.photos/200?random=1" alt="">
+                </div>
+                <div class="card-body">
+                    <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut non sed reiciendis natus
+                        accusantium
+                        voluptatum amet ipsam aliquid reprehenderit nulla! Omnis, libero. Harum repellendus voluptas
+                        est,
+                        eveniet autem amet at.</p>
+
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quidem optio, facilis natus
+                        obcaecati
+                        veniam porro. Eum totam, vitae maxime nostrum recusandae ipsum quis consectetur. Possimus
+                        praesentium
+                        deleniti molestias illo.</p>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li>平時：40%</li>
+                        <li>期中考：30%</li>
+                        <li>期末考：30%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>資料結構與演算法</h2>
+            <img src="https://picsum.photos/200?random=2" alt="">
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut non sed reiciendis natus accusantium
+                    voluptatum amet ipsam aliquid reprehenderit nulla! Omnis, libero. Harum repellendus voluptas
+                    est,
+                    eveniet autem amet at.</p>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quidem optio, facilis natus
+                    obcaecati
+                    veniam porro. Eum totam, vitae maxime nostrum recusandae ipsum quis consectetur. Possimus
+                    praesentium
+                    deleniti molestias illo.</p>
+            </div>
+            <ul>
+                <li>平時：40%</li>
+                <li>期中考：30%</li>
+                <li>期末考：30%</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>資料庫與後端</h2>
+            <img src="https://picsum.photos/200?random=3" alt="">
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut non sed reiciendis natus accusantium
+                    voluptatum amet ipsam aliquid reprehenderit nulla! Omnis, libero. Harum repellendus voluptas
+                    est,
+                    eveniet autem amet at.</p>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quidem optio, facilis natus
+                    obcaecati
+                    veniam porro. Eum totam, vitae maxime nostrum recusandae ipsum quis consectetur. Possimus
+                    praesentium
+                    deleniti molestias illo.</p>
+            </div>
+            <ul>
+                <li>平時：40%</li>
+                <li>期中考：30%</li>
+                <li>期末考：30%</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>進階網頁設計</h2>
+            <img src="https://picsum.photos/200?random=4" alt="">
+            <div class="card-body">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut non sed reiciendis natus accusantium
+                    voluptatum amet ipsam aliquid reprehenderit nulla! Omnis, libero. Harum repellendus voluptas
+                    est,
+                    eveniet autem amet at.</p>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quidem optio, facilis natus
+                    obcaecati
+                    veniam porro. Eum totam, vitae maxime nostrum recusandae ipsum quis consectetur. Possimus
+                    praesentium
+                    deleniti molestias illo.</p>
+            </div>
+            <ul>
+                <li>平時：40%</li>
+                <li>期中考：30%</li>
+                <li>期末考：30%</li>
+            </ul>
+        </div>
+
+
+</body>
+
+</html>
